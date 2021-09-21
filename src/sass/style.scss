@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
-    overflow-x: hidden;
 }
 .container {
     position: relative;
@@ -21,4 +20,6 @@
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
 @import 'base/media';
