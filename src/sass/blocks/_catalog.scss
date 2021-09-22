@@ -113,7 +113,7 @@
         &__content {
             width: 50%;
             margin-right: 0;
-            transform: translateX(-100%);
+            transform: translateX(-105%);
             transition: 0.5s all;
             &_active {
                 transform: translateX(0%);
@@ -149,6 +149,11 @@
                     background-color: $main-color;
                     left: -14px;
                     top: 7px;
+                }
+                &:last-child {
+                    &::before {
+                        content: none;
+                    }
                 }
             }
         }
